@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="guia10.barajadecartase.Enumeraciones">
+  <ClassDiagramComponents>
+    <Enum name="CartaBasto" package="guia10.barajadecartase.Enumeraciones" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Literals>
+        <Literal name="UNO"/>
+        <Literal name="DOS"/>
+        <Literal name="TRES"/>
+        <Literal name="CUATRO"/>
+        <Literal name="CINCO"/>
+        <Literal name="SEIS"/>
+        <Literal name="SIETE"/>
+        <Literal name="DIEZ"/>
+        <Literal name="ONCE"/>
+        <Literal name="DOCE"/>
+      </Literals>
+    </Enum>
+    <Enum name="CartaCopa" package="guia10.barajadecartase.Enumeraciones" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Literals>
+        <Literal name="UNO"/>
+        <Literal name="DOS"/>
+        <Literal name="TRES"/>
+        <Literal name="CUATRO"/>
+        <Literal name="CINCO"/>
+        <Literal name="SEIS"/>
+        <Literal name="SIETE"/>
+        <Literal name="DIEZ"/>
+        <Literal name="ONCE"/>
+        <Literal name="DOCE"/>
+      </Literals>
+    </Enum>
+    <Enum name="CartaEspada" package="guia10.barajadecartase.Enumeraciones" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Literals>
+        <Literal name="UNO"/>
+        <Literal name="DOS"/>
+        <Literal name="TRES"/>
+        <Literal name="CUATRO"/>
+        <Literal name="CINCO"/>
+        <Literal name="SEIS"/>
+        <Literal name="SIETE"/>
+        <Literal name="DIEZ"/>
+        <Literal name="ONCE"/>
+        <Literal name="DOCE"/>
+      </Literals>
+    </Enum>
+    <Enum name="CartaOro" package="guia10.barajadecartase.Enumeraciones" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Literals>
+        <Literal name="UNO"/>
+        <Literal name="DOS"/>
+        <Literal name="TRES"/>
+        <Literal name="CUATRO"/>
+        <Literal name="CINCO"/>
+        <Literal name="SEIS"/>
+        <Literal name="SIETE"/>
+        <Literal name="DIEZ"/>
+        <Literal name="ONCE"/>
+        <Literal name="DOCE"/>
+      </Literals>
+    </Enum>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

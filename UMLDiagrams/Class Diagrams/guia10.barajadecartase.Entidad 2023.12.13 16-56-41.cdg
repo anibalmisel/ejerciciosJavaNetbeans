@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="guia10.barajadecartase.Entidad">
+  <ClassDiagramComponents>
+    <Class name="BarajaCartasEspanolas" package="guia10.barajadecartase.Entidad" visibility="public" xPosition="299.0" yPosition="115.0">
+      <Fields>
+        <Field name="cartaOro" type="CartaOro" visibility="private"/>
+        <Field name="cartaEspada" type="CartaEspada" visibility="private"/>
+        <Field name="cartaCopa" type="CartaCopa" visibility="private"/>
+        <Field name="cartaBasto" type="CartaBasto" visibility="private"/>
+        <Field name="barajas" type="ArrayList" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="CartaOro" name="cartaOro"/>
+          <Argument type="CartaEspada" name="cartaEspada"/>
+          <Argument type="CartaCopa" name="cartaCopa"/>
+          <Argument type="CartaBasto" name="cartaBasto"/>
+          <Argument type="ArrayList" name="barajas"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getBarajas" returnType="ArrayList" visibility="public"/>
+        <Method name="setBarajas" returnType="void" visibility="public">
+          <Argument type="ArrayList" name="barajas"/>
+        </Method>
+        <Method name="getCartaOro" returnType="CartaOro" visibility="public"/>
+        <Method name="setCartaOro" returnType="void" visibility="public">
+          <Argument type="CartaOro" name="cartaOro"/>
+        </Method>
+        <Method name="getCartaEspada" returnType="CartaEspada" visibility="public"/>
+        <Method name="setCartaEspada" returnType="void" visibility="public">
+          <Argument type="CartaEspada" name="cartaEspada"/>
+        </Method>
+        <Method name="getCartaCopa" returnType="CartaCopa" visibility="public"/>
+        <Method name="setCartaCopa" returnType="void" visibility="public">
+          <Argument type="CartaCopa" name="cartaCopa"/>
+        </Method>
+        <Method name="getCartaBasto" returnType="CartaBasto" visibility="public"/>
+        <Method name="setCartaBasto" returnType="void" visibility="public">
+          <Argument type="CartaBasto" name="cartaBasto"/>
+        </Method>
+        <Method name="hashCode" returnType="int" visibility="public"/>
+        <Method name="equals" returnType="boolean" visibility="public">
+          <Argument type="Object" name="obj"/>
+        </Method>
+        <Method name="barajar" returnType="ArrayList&lt;String&gt;" visibility="public"/>
+        <Method name="siguienteCarta" returnType="String" visibility="public">
+          <Argument type="BarajaCartasEspanolas" name="barajas"/>
+        </Method>
+        <Method name="cartasDisponibles" returnType="void" visibility="public">
+          <Argument type="BarajaCartasEspanolas" name="barajas"/>
+        </Method>
+        <Method name="mostrarBaraja" returnType="ArrayList&lt;String&gt;" visibility="public">
+          <Argument type="ArrayList" name="a"/>
+          <Argument type="String" name="b"/>
+        </Method>
+        <Method name="cartaMonton" returnType="void" visibility="public">
+          <Argument type="ArrayList" name="a"/>
+          <Argument type="ArrayList" name="b"/>
+        </Method>
+        <Method name="eliminarBaraja" returnType="ArrayList&lt;String&gt;" visibility="public">
+          <Argument type="ArrayList" name="a"/>
+          <Argument type="String" name="b"/>
+        </Method>
+        <Method name="darCartas" returnType="ArrayList" visibility="public">
+          <Argument type="ArrayList" name="barajas"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="guia10.barajadecartase.Entidad.BarajaCartasEspanolas" target="guia10.barajadecartase.Entidad.BarajaCartasEspanolas" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

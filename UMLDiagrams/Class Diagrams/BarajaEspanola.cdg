@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="BarajaEspanola">
+  <ClassDiagramComponents>
+    <Class name="BarajaB" package="" visibility="public" xPosition="162.0" yPosition="132.0">
+      <Fields>
+        <Field name="palo" type="String" visibility="private"/>
+        <Field name="numero" type="Integer" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

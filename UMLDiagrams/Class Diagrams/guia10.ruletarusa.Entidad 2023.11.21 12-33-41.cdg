@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="guia10.ruletarusa.Entidad">
+  <ClassDiagramComponents>
+    <Class name="Juego" package="guia10.ruletarusa.Entidad" visibility="public" xPosition="38.0" yPosition="58.0">
+      <Fields>
+        <Field name="jugadores" type="ArrayList&lt;Jugador&gt;" visibility="private"/>
+        <Field name="revolver" type="RevolverDeAgua" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="llenarJuego" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Jugador&gt;" name="jugadores"/>
+          <Argument type="Revolver" name="r"/>
+        </Method>
+        <Method name="ronda" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Jugador" package="guia10.ruletarusa.Entidad" visibility="public" xPosition="542.0" yPosition="151.0">
+      <Fields>
+        <Field name="id" type="String" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="mojado" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="disparo" returnType="void" visibility="public">
+          <Argument type="Revolver" name="r"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RevolverDeAgua" package="guia10.ruletarusa.Entidad" visibility="public" xPosition="721.0" yPosition="46.0">
+      <Fields>
+        <Field name="posicionTambor" type="Integer" visibility="private"/>
+        <Field name="posicionAgua" type="Integer" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="llenarRevolver" returnType="void" visibility="public"/>
+        <Method name="mojar" returnType="void" visibility="public"/>
+        <Method name="siguienteChorro" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Enum name="UntitledEnum" package="" visibility="public" xPosition="363.0" yPosition="366.0">
+      <Literals/>
+    </Enum>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="jugadores" source="guia10.ruletarusa.Entidad.Juego" target="guia10.ruletarusa.Entidad.Jugador" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..*" collectionType="ArrayList"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
